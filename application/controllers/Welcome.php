@@ -24,7 +24,7 @@ class Welcome extends CI_Controller {
 
 		if ($this->form_validation->run() == FALSE)
                 {
-                        $this->load->view('user/login');
+                        $this->load->view('user/register');
                 }
                 else
                 {
